@@ -1,15 +1,25 @@
+student_count = 11
+#first, we print the lsit of students
+
+students = [
+  "Dr. Hannibal Lecter",
+  "Darth Vader",
+  "Nurse Ratched",
+  "Michael Corleone",
+  "Alex DeLarge",
+  "The Wicked Witch of the West",
+  "Terminator",
+  "Freddy Krueger",
+  "The Joker",
+  "Joffrey Baratheon",
+  "Norman Bates"
+]
+
 puts "The students of Villans Academy"
 puts "------------"
-puts "Dr. Hannibal Lecter"
-puts "Darth Vader"
-puts "Nurse Ratched"
-puts "Michael Corleone"
-puts "Alex DeLarge"
-puts "The Wicked Witch of the West"
-puts "Freddy Krueger"
-puts "The Joker"
-puts "Norman Bates"
 
-print "Overall, we have "
-print 11
-puts " great students"
+puts "Overall, we have #{students.count} great students"
+
+students.each do |candy|
+  puts candy
+end
