@@ -14,12 +14,24 @@ students = [
   "Joffrey Baratheon",
   "Norman Bates"
 ]
-
-puts "The students of Villans Academy"
-puts "------------"
-
-puts "Overall, we have #{students.count} great students"
-
-students.each do |candy|
-  puts candy
+def print_header
+  puts "The students of Villans Academy"
+  puts "------------"
 end
+
+def print(names)
+  names.each do |name|
+    puts name
+    end
+end
+
+def print_footer(names)
+  puts "Overall, we have #{names.count} great students"
+end
+
+print_header
+print(students)
+print_footer(students)
+
+#students.each do |candy|
+#  puts candy
