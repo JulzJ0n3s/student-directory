@@ -9,3 +9,7 @@ puts "The Wicked Witch of the West"
 puts "Freddy Krueger"
 puts "The Joker"
 puts "Norman Bates"
+
+print "Overall, we have "
+print 11
+puts " great students"
